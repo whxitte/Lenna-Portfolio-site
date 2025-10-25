@@ -4,70 +4,292 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lena - Creative Graphic Designer Portfolio</title>
+  <meta name="description" content="Lena - A visionary graphic designer portfolio showcasing creative designs and projects">
 
-  <title>Lena</title>
-
-  <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-  <!-- styles -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <section id="hero">
+  <header class="main-header">
+    <a class="logo" href="#home">Lena</a>
+    <nav class="nav-bar">
+      <a class="nav-items active" data-target="home">Home</a>
+      <a class="nav-items" data-target="about">About</a>
+      <a class="nav-items" data-target="skills">Skills</a>
+      <a class="nav-items" data-target="blog">Blog</a>
+      <a class="nav-items" data-target="contacts">Contacts</a>
+    </nav>
+    <button class="cta-btn hire-me-btn">Hire Me</button>
+    <button class="mobile-menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
 
-    <header>
-      <a class="logo">Lena</a>
-      <nav class="nav-bar">
-        <a class="nav-items">Home</a>
-        <a class="nav-items">About</a>
-        <a class="nav-items">Skills</a>
-        <a class="nav-items">Blog</a>
-        <a class="nav-items">Contacts</a>
-      </nav>
-      <button class="cta-btn">Hire Me</button>
-    </header>
-
+  <section id="home" class="hero">
     <div class="hero-content">
-      
-        <div class="left-content">
-
-          <div class="left-content-wrap">
-            <h3>The Heart of Creativity</h3>
-            <h1>Hi, I'm <span>Lena</span></h1>
-            <p>
-              Lena is a visionary graphic designer known for her imaginative approach and eye-catching designs. With a
-              passion for creativity, she transforms ideas into captivating visuals that resonate and inspire.
-            </p>
-            <div class="cta">
-              <button class="big-cta cta-1">
-                Download Cv
-                <i class="fa-solid fa-download"></i>
-              </button>
-              <button class="big-cta cta-2">
-                Hire Me
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </button>
-            </div>
+      <div class="left-content">
+        <div class="left-content-wrap">
+          <h3>The Heart of Creativity</h3>
+          <h1>Hi, I'm <span>Lena</span></h1>
+          <p>
+            Lena is a visionary graphic designer known for her imaginative approach and eye-catching designs. With a
+            passion for creativity, she transforms ideas into captivating visuals that resonate and inspire.
+          </p>
+          <div class="cta">
+            <button class="big-cta cta-1 download-cv-btn">
+              Download CV
+              <i class="fa-solid fa-download"></i>
+            </button>
+            <button class="big-cta cta-2 hire-me-btn">
+              Hire Me
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
           </div>
         </div>
+      </div>
 
-        <div class="right-content">
-          <img src="images/lena-img.png" alt="Lena-image" class="lena-img">
-          <img src="images/scratch-img.png" class="scratch-img">
-        </div>
-      
+      <div class="right-content">
+        <img src="images/lena-img.png" alt="Lena - Graphic Designer" class="lena-img">
+        <img src="images/scratch-img.png" alt="Background decoration" class="scratch-img">
+      </div>
     </div>
 
     <div class="socials">
-      <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-youtube"></i>
-      <i class="fa-brands fa-linkedin-in"></i>
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
     </div>
-
   </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Creative Designer & Problem Solver</h3>
+          <p>
+            Hello! I'm Lena, a passionate graphic designer with over 8 years of experience in creating visual
+            solutions that make a difference. My journey in design started with a simple sketch and evolved into a
+            career dedicated to bringing ideas to life through innovative design.
+          </p>
+          <p>
+            I specialize in brand identity, digital design, and creative direction. My approach combines artistic
+            vision with strategic thinking, ensuring every project not only looks beautiful but also achieves its
+            intended purpose.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <h4>150+</h4>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+              <h4>85+</h4>
+              <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+              <h4>25+</h4>
+              <p>Awards Won</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="about-img-wrapper">
+            <img src="https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg" alt="Designer workspace">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="skills-content">
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Adobe Photoshop</span>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="95"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Adobe Illustrator</span>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="90"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Figma</span>
+            <span class="skill-percentage">88%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="88"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">UI/UX Design</span>
+            <span class="skill-percentage">92%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="92"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Brand Identity</span>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="85"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header">
+            <span class="skill-name">Typography</span>
+            <span class="skill-percentage">87%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-progress="87"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Latest Blog Posts</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg" alt="Design trends 2024">
+          </div>
+          <div class="blog-content">
+            <span class="blog-date">March 15, 2024</span>
+            <h3>Top Design Trends for 2024</h3>
+            <p>Explore the emerging design trends that will shape the creative industry this year.</p>
+            <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="Color psychology">
+          </div>
+          <div class="blog-content">
+            <span class="blog-date">March 8, 2024</span>
+            <h3>The Psychology of Color in Design</h3>
+            <p>Understanding how colors influence emotions and decision-making in visual design.</p>
+            <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Brand identity">
+          </div>
+          <div class="blog-content">
+            <span class="blog-date">February 28, 2024</span>
+            <h3>Creating a Strong Brand Identity</h3>
+            <p>Essential steps to develop a memorable and impactful brand identity for your business.</p>
+            <a href="#" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">Have a project in mind? Let's work together!</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>lena.designer@email.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Location</h4>
+              <p>San Francisco, CA</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Lena. All rights reserved. Designed with <i class="fa-solid fa-heart"></i> by CODEGENWEB</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/js/main.js"></script>
 </body>
 
 </html>
